@@ -10,7 +10,7 @@ const supabase = createClient(
   }
 );
 
-// --- HTML escape（最低限） ---
+// --- HTML escape （最低限） ---
 const escapeHtml = (str = "") =>
   str
     .replace(/&/g, "&amp;")
